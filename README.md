@@ -21,7 +21,7 @@ You may also quick try the example project with
 
 `pod try JTSplashView`
 
-**Library requires target iOS 7.0 and above**
+**Library requires target iOS 8.0 and above**
 
 > **Designed for Portrait mode only.**
 
