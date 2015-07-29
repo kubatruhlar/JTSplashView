@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
   s.author    = "Jakub Truhlar"
   s.social_media_url   = "http://kubatruhlar.cz"
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/kubatru/JTSplashView.git", :tag => "1.0.0" }
   s.source_files  = "JTSplashView/*"
   s.framework  = "UIKit"
