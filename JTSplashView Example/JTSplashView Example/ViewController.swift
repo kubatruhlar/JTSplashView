@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         JTSplashView.splashViewWithBackgroundColor(nil, circleColor: nil, circleSize: nil)
         
         // Simulate state when we want to hide the splash view
-        NSTimer.scheduledTimerWithTimeInterval(3.0, target: self, selector: Selector("hideSplashView"), userInfo: nil, repeats: false)
+        Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(ViewController.hideSplashView), userInfo: nil, repeats: false)
     }
 
     override func didReceiveMemoryWarning() {
@@ -25,7 +25,7 @@ class ViewController: UIViewController {
     
     func hideSplashView() {
         JTSplashView.finishWithCompletion { () -> Void in
-            UIApplication.sharedApplication().statusBarHidden = false
+            UIApplication.shared.isStatusBarHidden = false
         }
     }
 
