@@ -12,19 +12,8 @@
 		3B9166F01B642CF7004522AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9166EE1B642CF7004522AC /* Main.storyboard */; };
 		3B9166F21B642CF7004522AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9166F11B642CF7004522AC /* Images.xcassets */; };
 		3B9166F51B642CF7004522AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B9166F31B642CF7004522AC /* LaunchScreen.xib */; };
-		3B9167011B642CF8004522AC /* JTSplashView_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9167001B642CF8004522AC /* JTSplashView_ExampleTests.swift */; };
 		3B9167101B642D4D004522AC /* JTSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B91670F1B642D4D004522AC /* JTSplashView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3B9166FB1B642CF8004522AC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3B9166DD1B642CF7004522AC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3B9166E41B642CF7004522AC;
-			remoteInfo = "JTSplashView Example";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		3B9166E51B642CF7004522AC /* JTSplashView Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JTSplashView Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -34,7 +23,6 @@
 		3B9166EF1B642CF7004522AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B9166F11B642CF7004522AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3B9166F41B642CF7004522AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		3B9166FA1B642CF8004522AC /* JTSplashView ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JTSplashView ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B9166FF1B642CF8004522AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B9167001B642CF8004522AC /* JTSplashView_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTSplashView_ExampleTests.swift; sourceTree = "<group>"; };
 		3B91670F1B642D4D004522AC /* JTSplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JTSplashView.swift; sourceTree = "<group>"; };
@@ -42,13 +30,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		3B9166E21B642CF7004522AC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B9166F71B642CF8004522AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				3B9166E51B642CF7004522AC /* JTSplashView Example.app */,
-				3B9166FA1B642CF8004522AC /* JTSplashView ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,24 +124,6 @@
 			productReference = 3B9166E51B642CF7004522AC /* JTSplashView Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B9166F91B642CF8004522AC /* JTSplashView ExampleTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3B9167071B642CF8004522AC /* Build configuration list for PBXNativeTarget "JTSplashView ExampleTests" */;
-			buildPhases = (
-				3B9166F61B642CF8004522AC /* Sources */,
-				3B9166F71B642CF8004522AC /* Frameworks */,
-				3B9166F81B642CF8004522AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3B9166FC1B642CF8004522AC /* PBXTargetDependency */,
-			);
-			name = "JTSplashView ExampleTests";
-			productName = "JTSplashView ExampleTests";
-			productReference = 3B9166FA1B642CF8004522AC /* JTSplashView ExampleTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +135,6 @@
 				TargetAttributes = {
 					3B9166E41B642CF7004522AC = {
 						CreatedOnToolsVersion = 6.4;
-					};
-					3B9166F91B642CF8004522AC = {
-						CreatedOnToolsVersion = 6.4;
-						TestTargetID = 3B9166E41B642CF7004522AC;
 					};
 				};
 			};
@@ -194,7 +152,6 @@
 			projectRoot = "";
 			targets = (
 				3B9166E41B642CF7004522AC /* JTSplashView Example */,
-				3B9166F91B642CF8004522AC /* JTSplashView ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -207,13 +164,6 @@
 				3B9166F01B642CF7004522AC /* Main.storyboard in Resources */,
 				3B9166F51B642CF7004522AC /* LaunchScreen.xib in Resources */,
 				3B9166F21B642CF7004522AC /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3B9166F81B642CF8004522AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -230,23 +180,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B9166F61B642CF8004522AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3B9167011B642CF8004522AC /* JTSplashView_ExampleTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		3B9166FC1B642CF8004522AC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3B9166E41B642CF7004522AC /* JTSplashView Example */;
-			targetProxy = 3B9166FB1B642CF8004522AC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3B9166EE1B642CF7004522AC /* Main.storyboard */ = {
@@ -356,6 +290,7 @@
 				INFOPLIST_FILE = "JTSplashView Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -366,40 +301,7 @@
 				INFOPLIST_FILE = "JTSplashView Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		3B9167081B642CF8004522AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "JTSplashView ExampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTSplashView Example.app/JTSplashView Example";
-			};
-			name = Debug;
-		};
-		3B9167091B642CF8004522AC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "JTSplashView ExampleTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JTSplashView Example.app/JTSplashView Example";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -420,15 +322,6 @@
 			buildConfigurations = (
 				3B9167051B642CF8004522AC /* Debug */,
 				3B9167061B642CF8004522AC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3B9167071B642CF8004522AC /* Build configuration list for PBXNativeTarget "JTSplashView ExampleTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3B9167081B642CF8004522AC /* Debug */,
-				3B9167091B642CF8004522AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
