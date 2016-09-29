@@ -7,8 +7,8 @@
 Create the beautiful splash view with **JTSplashView**.
 
 <h3 align="center">
-  <img src="https://github.com/kubatru/JTSplashView/blob/master/Screens/default.gif" alt="Default Example 1" height="568"/>
-<img src="https://github.com/kubatru/JTSplashView/blob/master/Screens/examples.png" alt="Examples" height="568"/>
+  <img src="https://github.com/kubatruhlar/JTSplashView/blob/master/Screens/default.gif" alt="Default Example 1" height="568"/>
+<img src="https://github.com/kubatruhlar/JTSplashView/blob/master/Screens/examples.png" alt="Examples" height="568"/>
 </h3>
 
 
